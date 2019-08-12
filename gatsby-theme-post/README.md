@@ -16,13 +16,13 @@ A Gatsby theme for creating a blog.
 This will generate a new site that pre-configures use of the blog theme.
 
 ```sh
-gatsby new my-themed-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme
+gatsby new my-themed-post https://github.com/gatsbyjs/gatsby-starter-post-theme
 ```
 
 ### Manually add to your site
 
 ```sh
-npm install --save gatsby-theme-blog
+npm install --save gatsby-theme-post
 ```
 
 ## Usage
@@ -43,7 +43,7 @@ npm install --save gatsby-theme-blog
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-theme-blog`,
+      resolve: `gatsby-theme-post`,
       options: {
         // basePath defaults to `/`
         basePath: `/blog`,

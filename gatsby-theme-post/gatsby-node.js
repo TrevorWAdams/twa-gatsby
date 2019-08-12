@@ -5,7 +5,7 @@ const crypto = require(`crypto`)
 const Debug = require(`debug`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
-const debug = Debug(`gatsby-theme-blog`)
+const debug = Debug(`gatsby-theme-post`)
 
 // These are customizable theme options we only need to check once
 let basePath
