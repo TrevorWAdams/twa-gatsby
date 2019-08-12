@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace gatsby-starter-post-theme start",
+    "clean": "yarn workspaces run clean"
+  },
+  "workspaces": [
+    "gatsby-theme-post",
+    "gatsby-starter-post-theme"
+  ]
+}
